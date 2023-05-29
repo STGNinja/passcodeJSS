@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Code Verification</title>
+  <link rel="stylesheet" type="text/css" href="passcode.css">
+  canvas {
+    display: Block
+  }
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+  <div class="container">
+    <h2>Code Verification</h2>
+    <input id="codeInput" type="password" maxlength="6" placeholder="Enter the verification code">
+    <button onclick="verifyCode()">Verify</button>
+    <p id="message"></p>
+    <div id="redirectButton">
+      <a href="#" id="redirectLink">Log In</a>
+    </div>
+  </div>
+
+  <script src="passcode.js"></script>
+</body>
+
+</html>

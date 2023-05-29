@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Code Verification</title>
+  <link rel="stylesheet" type="text/css" href="passcode.css">
+ 
+</head>
+
+<body>
+    <div class="container">
+        <h2>Code Verification</h2>
+        <input id="codeInput" type="password" maxlength="6" placeholder="Enter the verification code">
+        <button onclick="verifyCode()">Verify</button>
+        <p id="message"></p>
+        <div id="redirectButton">
+          <div class="div2">
+            <a href="Gallery.html" class="button3">Log In</a>
+          </div>      </div>
+      <div class="background"></div>
+    
+      <div id="shape-container"></div>
+    
+      <div class="navbar">
+        <ul>
+          <li><a href="passcode.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="Reviews.html">Reviews</a></li>
+        </ul>
+        
+        <button id="emailButton" class="email-button">Email me</button>
+      </div>
+    
+      <div id="emailModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Enter your email</h2>
+          <input type="email" id="emailInput" placeholder="Enter your email address">
+          <button id="submitEmail" class="submit-button">Submit</button>
+        
+        </div>
+      </div>
+    
+      <div id="confirmationModal" class="modal">
+        <div class="modal-content">
+          <a href="passcode.html"><button>&times;</button></a>
+          <h2>Thank you!</h2>
+          <p>Your code is: 702403</p>
+        </div>
+      </div>
+      <a href="#next-page" class="scroll-down-arrow">&#9660;</a>
+
+    <div id="next-page">
+    
+  
+  <script src="passcode.js"></script>
+</body>
+
+</html>
+
+

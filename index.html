@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Poll</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Live Poll</h1>
+  <div id="poll">
+    <h2>What is your favorite programming language?</h2>
+    <form>
+      <label>
+        <input type="radio" name="language" value="javascript">
+        JavaScript
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="language" value="python">
+        Python
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="language" value="java">
+        Java
+      </label>
+      <br>
+      <input type="submit" value="Vote">
+    </form>
+    <div id="results">
+      <h3>Results:</h3>
+      <div id="javascript">JavaScript: <span id="javascript-count">0</span></div>
+      <div id="python">Python: <span id="python-count">0</span></div>
+      <div id="java">Java: <span id="java-count">0</span></div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

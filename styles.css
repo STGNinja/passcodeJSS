@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #poll {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #results {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  #results div {
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+  }
+  
+  
